@@ -1,5 +1,5 @@
 # HSRP_beallitas
-
+```
 from netmiko import ConnectHandler
 
 def set_hsrp(d, v):
@@ -29,3 +29,4 @@ variables = [
 # Csatlakozás minden eszközhöz
 for device,var in zip(devices,variables):  
     set_hsrp(device,var)
+```
